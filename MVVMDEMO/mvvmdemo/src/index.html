@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MVVMDEMO</title>
+</head>
+<body>
+    <div id="app">
+        <!--双向数据绑定 v-model-->
+        <input type="text" v-model="message">
+        <!--单向数据绑定 插值表达式-->
+        {{message}}
+    </div>
+    <script src="mvvm.js"></script>
+    <script src="compile.js"></script>
+    <script src="observer.js"></script>
+    <script src="watcher.js"></script>
+    <script>
+        let vm = new MVVM({
+            el:'#app',
+            data:{
+                message:'This is my mvvm'
+            }
+        })
+    </script>
+
+
+</body>
+</html>

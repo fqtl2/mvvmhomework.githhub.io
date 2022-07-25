@@ -1,0 +1,14 @@
+{
+  "name": "mvvmdemo",
+  "version": "1.0.0",
+  "description": "1）响应式：该框架如何监听到 data 的每个属性变化。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
